@@ -19,3 +19,24 @@ C:\Users\developer\documents\visual studio 2012\Projects\Arisoph\Arisoph.Web.Fra
 C:\Users\developer\documents\visual studio 2012\Projects\Arisoph\Arisoph.Web.Framework\bin\Debug\Ninject.Web.Common.xml
 C:\Users\developer\documents\visual studio 2012\Projects\Arisoph\Arisoph.Web.Framework\bin\Debug\Ninject.Web.Mvc.pdb
 C:\Users\developer\documents\visual studio 2012\Projects\Arisoph\Arisoph.Web.Framework\bin\Debug\Ninject.Web.Mvc.xml
+C:\Documents and Settings\mm51467\My Documents\Visual Studio 2010\Projects\ballin-octo-bear\Arisoph\Arisoph.Web.Framework\bin\Debug\MSSQL.cfg.xml
+C:\Documents and Settings\mm51467\My Documents\Visual Studio 2010\Projects\ballin-octo-bear\Arisoph\Arisoph.Web.Framework\bin\Debug\hibernate.cfg.xml
+C:\Documents and Settings\mm51467\My Documents\Visual Studio 2010\Projects\ballin-octo-bear\Arisoph\Arisoph.Web.Framework\bin\Debug\Mapping\User.hbm.xml
+C:\Documents and Settings\mm51467\My Documents\Visual Studio 2010\Projects\ballin-octo-bear\Arisoph\Arisoph.Web.Framework\bin\Debug\Arisoph.Web.Framework.dll
+C:\Documents and Settings\mm51467\My Documents\Visual Studio 2010\Projects\ballin-octo-bear\Arisoph\Arisoph.Web.Framework\bin\Debug\Arisoph.Web.Framework.pdb
+C:\Documents and Settings\mm51467\My Documents\Visual Studio 2010\Projects\ballin-octo-bear\Arisoph\Arisoph.Web.Framework\bin\Debug\Arisoph.DAL.DomainObject.dll
+C:\Documents and Settings\mm51467\My Documents\Visual Studio 2010\Projects\ballin-octo-bear\Arisoph\Arisoph.Web.Framework\bin\Debug\Ninject.dll
+C:\Documents and Settings\mm51467\My Documents\Visual Studio 2010\Projects\ballin-octo-bear\Arisoph\Arisoph.Web.Framework\bin\Debug\Ninject.Web.Common.dll
+C:\Documents and Settings\mm51467\My Documents\Visual Studio 2010\Projects\ballin-octo-bear\Arisoph\Arisoph.Web.Framework\bin\Debug\Ninject.Web.Mvc.dll
+C:\Documents and Settings\mm51467\My Documents\Visual Studio 2010\Projects\ballin-octo-bear\Arisoph\Arisoph.Web.Framework\bin\Debug\NHibernate.dll
+C:\Documents and Settings\mm51467\My Documents\Visual Studio 2010\Projects\ballin-octo-bear\Arisoph\Arisoph.Web.Framework\bin\Debug\Iesi.Collections.dll
+C:\Documents and Settings\mm51467\My Documents\Visual Studio 2010\Projects\ballin-octo-bear\Arisoph\Arisoph.Web.Framework\bin\Debug\Arisoph.DAL.DomainObject.pdb
+C:\Documents and Settings\mm51467\My Documents\Visual Studio 2010\Projects\ballin-octo-bear\Arisoph\Arisoph.Web.Framework\bin\Debug\Ninject.pdb
+C:\Documents and Settings\mm51467\My Documents\Visual Studio 2010\Projects\ballin-octo-bear\Arisoph\Arisoph.Web.Framework\bin\Debug\Ninject.xml
+C:\Documents and Settings\mm51467\My Documents\Visual Studio 2010\Projects\ballin-octo-bear\Arisoph\Arisoph.Web.Framework\bin\Debug\Ninject.Web.Common.pdb
+C:\Documents and Settings\mm51467\My Documents\Visual Studio 2010\Projects\ballin-octo-bear\Arisoph\Arisoph.Web.Framework\bin\Debug\Ninject.Web.Common.xml
+C:\Documents and Settings\mm51467\My Documents\Visual Studio 2010\Projects\ballin-octo-bear\Arisoph\Arisoph.Web.Framework\bin\Debug\Ninject.Web.Mvc.pdb
+C:\Documents and Settings\mm51467\My Documents\Visual Studio 2010\Projects\ballin-octo-bear\Arisoph\Arisoph.Web.Framework\bin\Debug\Ninject.Web.Mvc.xml
+C:\Documents and Settings\mm51467\My Documents\Visual Studio 2010\Projects\ballin-octo-bear\Arisoph\Arisoph.Web.Framework\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\mm51467\My Documents\Visual Studio 2010\Projects\ballin-octo-bear\Arisoph\Arisoph.Web.Framework\obj\Debug\Arisoph.Web.Framework.dll
+C:\Documents and Settings\mm51467\My Documents\Visual Studio 2010\Projects\ballin-octo-bear\Arisoph\Arisoph.Web.Framework\obj\Debug\Arisoph.Web.Framework.pdb
