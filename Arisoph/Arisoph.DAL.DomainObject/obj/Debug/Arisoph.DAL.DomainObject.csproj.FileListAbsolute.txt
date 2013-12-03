@@ -1,0 +1,12 @@
+C:\Users\developer\documents\visual studio 2012\Projects\Arisoph\Arisoph.DAL.DomainObject\bin\Debug\MSSQL.cfg.xml
+C:\Users\developer\documents\visual studio 2012\Projects\Arisoph\Arisoph.DAL.DomainObject\bin\Debug\hibernate.cfg.xml
+C:\Users\developer\documents\visual studio 2012\Projects\Arisoph\Arisoph.DAL.DomainObject\bin\Debug\Mapping\User.hbm.xml
+C:\Users\developer\documents\visual studio 2012\Projects\Arisoph\Arisoph.DAL.DomainObject\bin\Debug\Arisoph.DAL.DomainObject.dll
+C:\Users\developer\documents\visual studio 2012\Projects\Arisoph\Arisoph.DAL.DomainObject\bin\Debug\Arisoph.DAL.DomainObject.pdb
+C:\Users\developer\documents\visual studio 2012\Projects\Arisoph\Arisoph.DAL.DomainObject\bin\Debug\Iesi.Collections.dll
+C:\Users\developer\documents\visual studio 2012\Projects\Arisoph\Arisoph.DAL.DomainObject\bin\Debug\log4net.dll
+C:\Users\developer\documents\visual studio 2012\Projects\Arisoph\Arisoph.DAL.DomainObject\bin\Debug\NHibernate.dll
+C:\Users\developer\documents\visual studio 2012\Projects\Arisoph\Arisoph.DAL.DomainObject\bin\Debug\log4net.xml
+C:\Users\developer\documents\visual studio 2012\Projects\Arisoph\Arisoph.DAL.DomainObject\obj\Debug\Arisoph.DAL.DomainObject.dll
+C:\Users\developer\documents\visual studio 2012\Projects\Arisoph\Arisoph.DAL.DomainObject\obj\Debug\Arisoph.DAL.DomainObject.pdb
+C:\Users\developer\documents\visual studio 2012\Projects\Arisoph\Arisoph.DAL.DomainObject\obj\Debug\Arisoph.DAL.DomainObject.csprojResolveAssemblyReference.cache

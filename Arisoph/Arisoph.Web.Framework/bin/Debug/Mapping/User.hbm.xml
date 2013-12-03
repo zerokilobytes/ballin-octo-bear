@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Arisoph.DAL.DomainObject" namespace="Arisoph.DAL.DomainObject.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="User" table="`User`" lazy="true" >
+    <id name="UserID" column="UserID">
+      <generator class="identity" />
+    </id>
+    <property name="UserName">
+      <column name="UserName" sql-type="nvarchar" not-null="true" />
+    </property>
+    <property name="Gender">
+      <column name="Gender" sql-type="char" not-null="false" />
+    </property>
+    <property name="EmailAddress">
+      <column name="EmailAddress" sql-type="nvarchar" not-null="true" />
+    </property>
+    <property name="GUID">
+      <column name="GUID" sql-type="uniqueidentifier" not-null="false" />
+    </property>
+    <property name="FirstName">
+      <column name="FirstName" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="LastName">
+      <column name="LastName" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="DOB">
+      <column name="DOB" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="Password">
+      <column name="Password" sql-type="nvarchar" not-null="true" />
+    </property>
+    <property name="Verified">
+      <column name="Verified" sql-type="char" not-null="false" />
+    </property>
+    <property name="Active">
+      <column name="Active" sql-type="char" not-null="false" />
+    </property>
+    <property name="MobilePhone">
+      <column name="MobilePhone" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="CreationDate">
+      <column name="CreationDate" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="Domain">
+      <column name="Domain" sql-type="nvarchar" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>
