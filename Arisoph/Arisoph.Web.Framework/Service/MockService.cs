@@ -9,7 +9,7 @@ namespace Arisoph.Web.Framework.Service
     {
         public string GetMessage()
         {
-            return "1. Modify this template to jump-start your ASP.NET MVC application.";
+            return "Welcome";
         }
     }
 }

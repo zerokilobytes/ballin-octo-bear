@@ -11,22 +11,26 @@ namespace Arisoph.Web.UI.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly IService welcomeMessageService;
+        private readonly IService message;
 
         [Inject]
         public HomeController(IService welcomeMessageService)
         {
-            this.welcomeMessageService = welcomeMessageService;
+            this.message = welcomeMessageService;
         }
-
+      
+        public HomeController()
+        {
+            
+        }
         public ActionResult Index()
         {
-            ViewBag.Message = welcomeMessageService.GetMessage();
+            ViewBag.Message = message.GetMessage();
 
             
-            log4net.ILog logger = log4net.LogManager.GetLogger("File");
+            //log4net.ILog logger = log4net.LogManager.GetLogger("File");
           
-            logger.Error("Front page loaded for ip " + Request.UserHostAddress);
+            //logger.Error("Front page loaded for ip " + Request.UserHostAddress);
 
             return View();
         }
