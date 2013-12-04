@@ -33,6 +33,12 @@ namespace Arisoph.Web.UI.Controllers
             base.Initialize(requestContext);
         }
 
+        [Authorize]
+        public ActionResult Test()
+        {
+            return Content("Test...");
+        }
+
 
         //
         // GET: /Account/Login

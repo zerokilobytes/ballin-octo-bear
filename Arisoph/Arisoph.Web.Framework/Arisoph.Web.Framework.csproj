@@ -58,7 +58,7 @@
   <ItemGroup>
     <Compile Include="ActionFilter\LogFilter.cs" />
     <Compile Include="Contexts\UsersContext.cs" />
-    <Compile Include="Infrastructure\CustomMembershipProvider.cs" />
+    <Compile Include="Infrastructure\ArisophMembershipProvider.cs" />
     <Compile Include="Infrastructure\Log\ILog.cs" />
     <Compile Include="Infrastructure\Log\Level.cs" />
     <Compile Include="Infrastructure\Log\LogManager.cs" />

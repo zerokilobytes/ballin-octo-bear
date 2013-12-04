@@ -16,3 +16,6 @@
 /Arisoph/Arisoph.Web.UI.Tests/bin
 /Arisoph/Arisoph.Web.UI.Tests/obj
 /Arisoph/Arisoph.Web.UI/log.txt
+/Arisoph/TestResults/Arisoph.TE.Tests.mdf
+
+/Arisoph/TestResults/Arisoph.TE.Tests_log.ldf

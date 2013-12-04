@@ -10,7 +10,7 @@ using System.Web.Security;
 
 namespace Arisoph.Web.Framework.Infrastructure
 {
-    public class CustomMembershipProvider : MembershipProvider
+    public class ArisophMembershipProvider : MembershipProvider
     {
         public override string ApplicationName
         {
@@ -124,7 +124,7 @@ namespace Arisoph.Web.Framework.Infrastructure
             var user = usersContext.GetUser(username);
             if (user != null)
             {
-                var memUser = new MembershipUser("CustomMembershipProvider", username, user.UserID, user.EmailAddress,
+                var memUser = new MembershipUser("ArisophMembershipProvider", username, user.UserID, user.EmailAddress,
                                                             string.Empty, string.Empty,
                                                             true, false, DateTime.MinValue,
                                                             DateTime.MinValue,

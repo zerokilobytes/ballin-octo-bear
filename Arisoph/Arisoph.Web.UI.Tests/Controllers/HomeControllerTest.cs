@@ -15,7 +15,7 @@ namespace Arisoph.Web.UI.Tests.Controllers
     public class HomeControllerTest
     {
         [TestMethod]
-        public void Index()
+        public void viewbag_message_should_return_welcome_message()
         {
 
             var mock = new Mock<IService>();
@@ -33,7 +33,7 @@ namespace Arisoph.Web.UI.Tests.Controllers
         }
 
         [TestMethod]
-        public void About()
+        public void about_result_should_not_be_null()
         {
             // Arrange
             HomeController controller = new HomeController();
@@ -46,7 +46,7 @@ namespace Arisoph.Web.UI.Tests.Controllers
         }
 
         [TestMethod]
-        public void Contact()
+        public void contact_result_should_not_be_null()
         {
             // Arrange
             HomeController controller = new HomeController();
