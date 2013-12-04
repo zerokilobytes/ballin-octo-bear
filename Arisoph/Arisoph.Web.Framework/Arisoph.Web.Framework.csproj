@@ -58,6 +58,8 @@
   <ItemGroup>
     <Compile Include="ActionFilter\LogFilter.cs" />
     <Compile Include="Contexts\UsersContext.cs" />
+    <Compile Include="Controllers\AuthorizeController.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Infrastructure\ArisophMembershipProvider.cs" />
     <Compile Include="Infrastructure\Log\ILog.cs" />
     <Compile Include="Infrastructure\Log\Level.cs" />
@@ -74,9 +76,7 @@
     <Compile Include="Service\MockService.cs" />
     <Compile Include="Module\ServiceModule.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controller\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Arisoph.DAL.DomainObject\Arisoph.DAL.DomainObject.csproj">
       <Project>{ad77d8d0-a811-46e7-907e-20b87b256bd7}</Project>

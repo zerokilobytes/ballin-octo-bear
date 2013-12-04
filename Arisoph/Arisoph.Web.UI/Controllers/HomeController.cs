@@ -13,7 +13,7 @@ namespace Arisoph.Web.UI.Controllers
     {
         private readonly IService message;
 
-        [Inject]
+       
         public HomeController(IService welcomeMessageService)
         {
             this.message = welcomeMessageService;

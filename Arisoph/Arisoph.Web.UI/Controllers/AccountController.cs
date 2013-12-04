@@ -14,12 +14,11 @@ using Arisoph.Web.Framework.Interfaces;
 using System.Web.Routing;
 using Arisoph.Web.Framework.Services;
 using Arisoph.Web.Framework;
+using Arisoph.Web.Framework.Controllers;
 
 namespace Arisoph.Web.UI.Controllers
 {
-    [Authorize]
-    [InitializeSimpleMembership]
-    public class AccountController : Controller
+    public class AccountController : AuthorizeController
     {
 
         public IFormsAuthenticationService FormsService { get; set; }
