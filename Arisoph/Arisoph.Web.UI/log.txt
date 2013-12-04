@@ -1,3 +1,0 @@
-2013-12-03 12:21:46,155 [13] ERROR File [(null)] <(null)> - Front page loaded for ip 127.0.0.1
-2013-12-03 12:29:56,630 [12] ERROR File [(null)] <(null)> - Front page loaded for ip 127.0.0.1
-2013-12-03 12:29:58,957 [13] ERROR File [(null)] <(null)> - Front page loaded for ip 127.0.0.1
