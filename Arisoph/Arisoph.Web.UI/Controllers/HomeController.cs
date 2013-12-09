@@ -6,10 +6,11 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using log4net;
+using Arisoph.Web.Framework.Controllers;
 
 namespace Arisoph.Web.UI.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : AnonymousController
     {
         private readonly IService message;
 

@@ -1,0 +1,23 @@
+﻿@model List<Arisoph.Web.UI.ViewModel.AmazonProduct>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+<div>
+    <form action="" method="post">
+        <input name="query" type="text" />
+        <input value="Search" name="submit" type="submit" />
+    </form>
+</div>
+
+@if(Model != null)
+{
+
+<div>
+
+    @foreach (var p in Model)
+    {
+       <span> @p.name</span>
+    }
+</div>
+}

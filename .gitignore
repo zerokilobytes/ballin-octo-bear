@@ -20,3 +20,7 @@
 
 /Arisoph/TestResults/Arisoph.TE.Tests_log.ldf
 /Arisoph/TestResults
+/Arisoph/Arisoph.DAL.Common/obj
+/Arisoph/Arisoph.DAL.Common/bin
+/Arisoph/AmazonAWS/obj
+/Arisoph/AmazonAWS/bin
