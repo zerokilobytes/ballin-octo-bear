@@ -16,7 +16,7 @@ namespace Arisoph.DAL.Amazon.AWS
         private const string MY_AWS_SECRET_KEY = "0+4OSlMtGPyACUm6AcDJkhG0HNzTQWx3IVhhz4mJ";
         private const string DESTINATION          = "ecs.amazonaws.com";
 
-        public static string GetURL(string keyword)
+        public static string GetURL(string keyword, string category)
         {
             SignedRequestHelper helper = new SignedRequestHelper(MY_AWS_ACCESS_KEY_ID, MY_AWS_SECRET_KEY, DESTINATION);
             String requestUrl;
@@ -29,7 +29,7 @@ namespace Arisoph.DAL.Amazon.AWS
             r1["ResponseGroup"] = "ItemAttributes";
             r1["MerchantId"] = "All";
             r1["Operation"] = "ItemSearch";
-            r1["SearchIndex"] = "Electronics";
+            r1["SearchIndex"] = category;
             r1["Keywords"] = keyword;
 
             requestUrl = helper.Sign(r1);

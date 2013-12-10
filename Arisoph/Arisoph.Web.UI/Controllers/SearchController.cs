@@ -19,7 +19,7 @@ namespace Arisoph.Web.UI.Controllers
             {
                 string query = form["query"].ToString();
 
-                var products = ProductLoader.Load(query);
+                var products = ProductLoader.Load(query, "Electronics");
                var model = new SearchProduct() { Products = products };
 
                return View("Index", null, model);

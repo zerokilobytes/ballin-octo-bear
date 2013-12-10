@@ -10,9 +10,9 @@ namespace Arisoph.DAL.Amazon.AWS
 {
     public class ProductLoader
     {
-        public static List<ResultItem> Load(string search)
+        public static List<ResultItem> Load(string search, string category)
         {
-            var url = ItemLookup.GetURL(search);
+            var url = ItemLookup.GetURL(search, category);
 
            
 
