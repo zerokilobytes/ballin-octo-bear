@@ -1,4 +1,4 @@
-﻿@model List<Arisoph.Web.UI.ViewModel.AmazonProduct>
+﻿@model Arisoph.Web.UI.ViewModel.SearchProduct
 
 @{
     ViewBag.Title = "Home Page";
@@ -15,9 +15,9 @@
 
 <div>
 
-    @foreach (var p in Model)
+    @foreach (var p in Model.Products)
     {
-       <span> @p.name</span>
+       <span> @p.Name</span><br />
     }
 </div>
 }

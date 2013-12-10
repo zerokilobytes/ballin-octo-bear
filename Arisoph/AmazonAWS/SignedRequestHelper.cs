@@ -25,7 +25,7 @@ using System.Text;
 using System.Web;
 using System.Security.Cryptography;
 
-namespace AmazonAWS
+namespace Arisoph.DAL.Amazon.AWS
 {
     class SignedRequestHelper
     {

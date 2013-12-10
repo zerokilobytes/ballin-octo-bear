@@ -1,4 +1,4 @@
-﻿using AmazonAWS;
+﻿using Arisoph.DAL.Amazon.AWS;
 using Arisoph.Web.Framework.Controllers;
 using Arisoph.Web.UI.ViewModel;
 using System;
@@ -18,15 +18,11 @@ namespace Arisoph.Web.UI.Controllers
             if (Request.HttpMethod == "POST")
             {
                 string query = form["query"].ToString();
-                var products = new AmazonProduct[]
-                 {
-                     new AmazonProduct() {  name = "Bread"} 
-                 };
 
+                var products = ProductLoader.Load(query);
+               var model = new SearchProduct() { Products = products };
 
-               var result =  ProductLoader.Load();
-
-                return View("Index", null, products.ToList());
+               return View("Index", null, model);
             }
 
             return View();

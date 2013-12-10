@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arisoph.Web.Framework", "Ar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arisoph.DAL.DomainObject", "Arisoph.DAL.DomainObject\Arisoph.DAL.DomainObject.csproj", "{AD77D8D0-A811-46E7-907E-20B87B256BD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arisoph.DAL.Common", "Arisoph.DAL.Common\Arisoph.DAL.Common.csproj", "{8521576E-D60B-4541-9E8B-67DD5A270BA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonAWS", "AmazonAWS\AmazonAWS.csproj", "{D70F39F4-CAAD-48C3-88D0-4B696D0514B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,14 @@ Global
 		{AD77D8D0-A811-46E7-907E-20B87B256BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD77D8D0-A811-46E7-907E-20B87B256BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD77D8D0-A811-46E7-907E-20B87B256BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8521576E-D60B-4541-9E8B-67DD5A270BA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8521576E-D60B-4541-9E8B-67DD5A270BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8521576E-D60B-4541-9E8B-67DD5A270BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8521576E-D60B-4541-9E8B-67DD5A270BA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D70F39F4-CAAD-48C3-88D0-4B696D0514B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D70F39F4-CAAD-48C3-88D0-4B696D0514B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D70F39F4-CAAD-48C3-88D0-4B696D0514B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D70F39F4-CAAD-48C3-88D0-4B696D0514B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

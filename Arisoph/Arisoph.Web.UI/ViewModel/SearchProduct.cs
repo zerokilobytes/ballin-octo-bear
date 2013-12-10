@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using Arisoph.DAL.Common;
 
 namespace Arisoph.Web.UI.ViewModel
 {
-    public class AmazonProduct
+    public class SearchProduct
     {
-        public string name { get; set; }
+        public List<ResultItem> Products;
     }
 }
