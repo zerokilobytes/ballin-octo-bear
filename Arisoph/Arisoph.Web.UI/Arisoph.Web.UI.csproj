@@ -316,9 +316,9 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AmazonAWS\AmazonAWS.csproj">
+    <ProjectReference Include="..\AmazonAWS\Arisoph.DAL.Amazon.AWS.csproj">
       <Project>{d70f39f4-caad-48c3-88d0-4b696d0514b9}</Project>
-      <Name>AmazonAWS</Name>
+      <Name>Arisoph.DAL.Amazon.AWS</Name>
     </ProjectReference>
     <ProjectReference Include="..\Arisoph.DAL.Common\Arisoph.DAL.Common.csproj">
       <Project>{8521576e-d60b-4541-9e8b-67dd5a270ba9}</Project>

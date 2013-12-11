@@ -7,8 +7,8 @@
     <ProjectGuid>{D70F39F4-CAAD-48C3-88D0-4B696D0514B9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AmazonAWS</RootNamespace>
-    <AssemblyName>AmazonAWS</AssemblyName>
+    <RootNamespace>Arisoph.DAL.Amazon.AWS</RootNamespace>
+    <AssemblyName>Arisoph.DAL.Amazon.AWS</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
