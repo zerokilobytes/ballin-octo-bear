@@ -194,6 +194,15 @@
     <Content Include="Content\css\style-desktop.css" />
     <Content Include="Content\css\style-mobile.css" />
     <Content Include="Content\css\style.css" />
+    <Content Include="Content\images\bg.jpg" />
+    <Content Include="Content\images\bgshadow.png" />
+    <Content Include="Content\images\pic01.jpg" />
+    <Content Include="Content\images\pic02.jpg" />
+    <Content Include="Content\images\pic03.jpg" />
+    <Content Include="Content\images\pic04.jpg" />
+    <Content Include="Content\images\pic05.jpg" />
+    <Content Include="Content\images\pic06.jpg" />
+    <Content Include="Content\images\pic07.jpg" />
     <Content Include="Content\plugins\search\css\style.css" />
     <Content Include="Content\plugins\search\images\go_bttn.png" />
     <Content Include="Content\plugins\search\images\search_arrow.png" />
