@@ -322,7 +322,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AmazonAWS\Arisoph.DAL.Amazon.AWS.csproj">
-      <Project>{d70f39f4-caad-48c3-88d0-4b696d0514b9}</Project>
+      <Project>{9CA5361C-75D6-4506-8417-C934C51A951A}</Project>
       <Name>Arisoph.DAL.Amazon.AWS</Name>
     </ProjectReference>
     <ProjectReference Include="..\Arisoph.DAL.Common\Arisoph.DAL.Common.csproj">

@@ -45,7 +45,7 @@
         display: inline-block;
         right: 10px;
         top: 11px;
-        background: url('search_arrow.png') repeat scroll 0% 0% transparent;
+        background: url('/Content/plugins/search/images/search_arrow.png') repeat scroll 0% 0% transparent;
         height: 5px;
         width: 9px;
     }
@@ -76,7 +76,7 @@
 }
 
 .nav-sprite {
-    background: url('search_bck.png') no-repeat scroll 0% 0% transparent;
+    background: url('/Content/plugins/search/images/search_bck.png') no-repeat scroll 0% 0% transparent;
 }
 
 .nav-searchfield-outer {
@@ -102,7 +102,7 @@
 }
 
 .nav-submit-button {
-    background-image: url('go_bttn.png');
+    background-image: url('/Content/plugins/search/images/go_bttn.png');
     height: 27px;
     margin: 0px;
     overflow: hidden;
