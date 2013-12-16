@@ -187,10 +187,22 @@
     <Compile Include="ViewModel\ProductModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\css\ie7.css" />
+    <Content Include="Content\css\ie8.css" />
+    <Content Include="Content\css\skel-noscript.css" />
+    <Content Include="Content\css\style-1000px.css" />
+    <Content Include="Content\css\style-desktop.css" />
+    <Content Include="Content\css\style-mobile.css" />
+    <Content Include="Content\css\style.css" />
     <Content Include="Content\plugins\search\css\style.css" />
     <Content Include="Content\plugins\search\images\go_bttn.png" />
     <Content Include="Content\plugins\search\images\search_arrow.png" />
     <Content Include="Content\plugins\search\images\search_bck.png" />
+    <Content Include="Content\script\config.js" />
+    <Content Include="Content\script\html5shiv.js" />
+    <Content Include="Content\script\jquery.min.js" />
+    <Content Include="Content\script\skel-panels.min.js" />
+    <Content Include="Content\script\skel.min.js" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -248,6 +260,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Views\Search\Index.cshtml" />
+    <None Include="Views\Shared\_Layout.cshtml.bak" />
     <None Include="Web.config.bak" />
     <None Include="Web.config.Debug.bak">
       <DependentUpon>Web.config.bak</DependentUpon>
