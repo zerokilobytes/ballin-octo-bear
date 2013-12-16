@@ -3,6 +3,34 @@
 @{
     ViewBag.Title = "Home Page";
 }
+<div class="search_bar">
+	<label id="nav-search-label">Search</label>
+    		<span class=" nav-facade-active" id="nav-search-in" style="width: auto;">
+              <span data-value="search-alias=aps" id="nav-search-in-content" style="width: 60px; overflow: visible;">
+                All Books
+              </span>
+              <span class="nav-down-arrow nav-sprite"></span>
+              <select title="Search in" class="searchSelect" id="searchDropdownBox" name="books_category" style="top: 0px;">
+				  <option value="All Books" selected="selected">All Books</option>
+				  <option value="Arts &amp; Photography" title="Arts &amp; Photography">Arts &amp; Photography</option>
+				  					<option value="Biographies" title="Biographies &amp; Memoirs">Biographies</option>
+				  					<option value="Business &amp; Investing" title="Business &amp; Investing">Business &amp; Investing</option>
+				  					<option value="Childrens Books" title="Children's Books">Children Books</option>
+				  					<option value="Comics &amp; Graphic Novels" title="Comics &amp; Graphic Novels">Comics &amp; Graphic Novels</option>
+				  					<option value="Adventure" title="Adventure">Adventure</option>
+				  					<option value="Education &amp; Reference" title="Education &amp; Reference">Education &amp; Reference</option>
+				  					<option value="Parenting &amp; Relationships" title="Parenting &amp; Relationships">Parenting &amp; Relationships</option>
+				  					<option value="Science Fictions" title="Science Fictions">Science Fictions</option>
+				  					<option value="Teen &amp; Young Adult" title="Teen &amp; Young Adult">Teen &amp; Young Adult</option>
+			  </select>
+            </span>
+            <div class="nav-searchfield-outer nav-sprite">
+              <input value="" autocomplete="off" name="field-keywords" placeholder="Eg : Author Name, Book Name" title="Search For" id="twotabsearchtextbox" style="padding-right: 1px;" type="text">
+            </div>
+            <div class="nav-submit-button">
+              <input title="Go" class="nav-submit-input" value="Go" type="submit">
+            </div>
+</div>
 <div>
     <form action="" method="post">
         <input name="query" type="text" />

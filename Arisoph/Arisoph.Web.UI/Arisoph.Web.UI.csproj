@@ -187,6 +187,10 @@
     <Compile Include="ViewModel\ProductModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\plugins\search\css\style.css" />
+    <Content Include="Content\plugins\search\images\go_bttn.png" />
+    <Content Include="Content\plugins\search\images\search_arrow.png" />
+    <Content Include="Content\plugins\search\images\search_bck.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -311,6 +315,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\plugins\search\js\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

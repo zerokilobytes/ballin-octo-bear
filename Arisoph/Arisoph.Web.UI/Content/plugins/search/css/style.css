@@ -1,0 +1,177 @@
+
+.search_bar {
+    width: 965px;
+    height: auto;
+    float: left;
+    position: relative;
+    left: -17px;
+}
+
+#nav-search-label {
+    color: rgb(51, 51, 51);
+    display: block;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    font-weight: bold;
+    left: 140px;
+    line-height: 12px;
+    position: absolute;
+    top: 16px;
+}
+
+#nav-search-in {
+    display: inline-block;
+    height: 27px;
+    left: 202px;
+    overflow: hidden;
+    position: absolute;
+    top: 6px;
+}
+
+    #nav-search-in #nav-search-in-content {
+        color: rgb(119, 119, 119);
+        display: inline-block;
+        font-family: "arial","sans-serif";
+        font-size: 11px;
+        height: 27px;
+        line-height: 27px;
+        margin: 0px 59px 0px 6px;
+        text-indent: 1px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    #nav-search-in.nav-facade-active .nav-down-arrow {
+        display: inline-block;
+        right: 10px;
+        top: 11px;
+        background: url('search_arrow.png') repeat scroll 0% 0% transparent;
+        height: 5px;
+        width: 9px;
+    }
+
+.nav-facade-active #searchDropdownBox {
+    cursor: pointer;
+    height: 29px;
+    left: 0px;
+    opacity: 0;
+    top: 0px;
+    visibility: visible;
+    width: auto;
+}
+
+#searchDropdownBox {
+    background: none repeat scroll 0px 0px white;
+    border: 1px solid rgb(221, 221, 221);
+    color: black;
+    font-family: "arial","sans-serif";
+    left: 5px;
+    margin: 0px;
+    outline: medium none;
+    padding: 0px;
+    position: absolute;
+    top: 3px;
+    visibility: hidden;
+    width: 190px;
+}
+
+.nav-sprite {
+    background: url('search_bck.png') no-repeat scroll 0% 0% transparent;
+}
+
+.nav-searchfield-outer {
+    height: 30px;
+    margin-left: 190px;
+    margin-top: 5px;
+    width: 637px;
+}
+
+#twotabsearchtextbox {
+    background: none repeat scroll 0px 0px transparent;
+    border: medium none;
+    box-shadow: none;
+    color: rgb(51, 51, 51);
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    height: 17px;
+    margin: 6px 165px 0px;
+    outline: medium none;
+    padding: 0px;
+    width: 72%;
+    font-weight: bold;
+}
+
+.nav-submit-button {
+    background-image: url('go_bttn.png');
+    height: 27px;
+    margin: 0px;
+    overflow: hidden;
+    padding: 0px 0px 0px 3px;
+    position: absolute;
+    right: 100px;
+    top: 7px;
+}
+
+    .nav-submit-button .nav-submit-input {
+        background: none repeat scroll 0px 0px transparent;
+        border: medium none;
+        color: white;
+        cursor: pointer;
+        font-size: 15px;
+        height: 28px;
+        font-family: "Myriad Pro";
+        line-height: 15px;
+        margin: 0px;
+        padding: 0px;
+        width: 34px;
+    }
+
+.fb_reset {
+    background: none repeat scroll 0% 0% transparent;
+    border: 0px none;
+    border-spacing: 0px;
+    color: rgb(0, 0, 0);
+    cursor: auto;
+    direction: ltr;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 1;
+    margin: 0px;
+    overflow: visible;
+    padding: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-transform: none;
+    visibility: visible;
+    white-space: normal;
+    word-spacing: normal;
+}
+
+    .fb_reset > div {
+        overflow: hidden;
+    }
+
+.fb_iframe_widget {
+    display: inline-block;
+    position: relative;
+}
+
+    .fb_iframe_widget span {
+        display: inline-block;
+        position: relative;
+        text-align: justify;
+    }
+
+    .fb_iframe_widget iframe {
+        position: absolute;
+    }
+
+.fb_edge_widget_with_comment {
+    position: relative;
+}
