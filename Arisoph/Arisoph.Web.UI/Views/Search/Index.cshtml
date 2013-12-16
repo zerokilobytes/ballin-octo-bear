@@ -2,11 +2,20 @@
 @{
     ViewBag.Title = "Home Page";
 }
+ <script type="text/javascript">
+     jQuery(document).ready(function () {
+         $("#searchDropdownBox").change(function () {
+             var Search_Str = $(this).val();
+             //replace search str in span value
+             $("#nav-search-in-content").text(Search_Str);
+         });
+     });
+        </script>
 <div>
     <form action="" method="post">
     <div class="search_bar">
         <label id="nav-search-label">
-            Search</label>
+            </label>
         <span class=" nav-facade-active" id="nav-search-in" style="width: auto;"><span data-value="search-alias=aps"
             id="nav-search-in-content" style="width: 60px; overflow: visible;">All Books </span>
             <span class="nav-down-arrow nav-sprite"></span>
@@ -31,7 +40,7 @@
             </select>
         </span>
         <div class="nav-searchfield-outer nav-sprite">
-            <input value="" autocomplete="off" name="query" placeholder="Eg : Author Name, Book Name"
+            <input value="" autocomplete="off" name="query" placeholder=""
                 title="Search For" id="twotabsearchtextbox" style="padding-right: 1px;" type="text">
         </div>
         <div class="nav-submit-button">
