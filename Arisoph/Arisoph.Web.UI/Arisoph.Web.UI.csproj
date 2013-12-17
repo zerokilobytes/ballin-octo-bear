@@ -269,6 +269,12 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Views\Search\Index.cshtml" />
+    <Content Include="Views\Shared\Partial\_Banner.cshtml" />
+    <Content Include="Views\Shared\Partial\_ContentPlaceHolder.cshtml" />
+    <Content Include="Views\Shared\Partial\_Footer.cshtml" />
+    <Content Include="Views\Shared\Partial\_Featured.cshtml" />
+    <Content Include="Views\Shared\Partial\_Header.cshtml" />
+    <Content Include="Views\Shared\Partial\_Search.cshtml" />
     <None Include="Views\Shared\_Layout.cshtml.bak" />
     <None Include="Web.config.bak" />
     <None Include="Web.config.Debug.bak">

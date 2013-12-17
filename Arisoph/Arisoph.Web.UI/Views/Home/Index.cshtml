@@ -1,8 +1,16 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
-@section featured {
+
+@{ Html.RenderPartial("~/Views/Shared/Partial/_Search.cshtml");  }
+@{ Html.RenderPartial("~/Views/Shared/Partial/_Featured.cshtml");  }
+
+@section maincontent {
     <section class="featured">
-       
+        <div id="main-wrapper">
+            <div class="container">
+            </div>
+        </div>
+
     </section>
 }

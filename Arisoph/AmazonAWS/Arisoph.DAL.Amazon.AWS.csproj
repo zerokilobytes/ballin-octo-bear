@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9CA5361C-75D6-4506-8417-C934C51A951A}</ProjectGuid>
+    <ProjectGuid>{D70F39F4-CAAD-48C3-88D0-4B696D0514B9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Arisoph.DAL.Amazon.AWS</RootNamespace>
