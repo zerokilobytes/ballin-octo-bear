@@ -24,3 +24,9 @@
 /Arisoph/Arisoph.DAL.Common/bin
 /Arisoph/AmazonAWS/obj
 /Arisoph/AmazonAWS/bin
+/Arisoph/Arisoph.Service.API/obj
+/Arisoph/Arisoph.Service.API/bin
+/Arisoph/Arisoph.Service.API.Tests/obj
+/Arisoph/Arisoph.Service.API.Tests/bin
+/Arisoph/Arisoph.Service.API.Framework/obj
+/Arisoph/Arisoph.Service.API.Framework/bin

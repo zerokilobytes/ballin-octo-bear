@@ -209,6 +209,8 @@
     <Content Include="Content\plugins\search\images\search_bck.png" />
     <Content Include="Content\script\config.js" />
     <Content Include="Content\script\html5shiv.js" />
+    <Content Include="Content\script\jquery-jtemplates.min.js" />
+    <Content Include="Content\script\jquery-jtemplates.js" />
     <Content Include="Content\script\jquery.min.js" />
     <Content Include="Content\script\skel-panels.min.js" />
     <Content Include="Content\script\skel.min.js" />

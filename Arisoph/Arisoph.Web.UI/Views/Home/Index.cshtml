@@ -14,3 +14,39 @@
 
     </section>
 }
+
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+        $("#search-form").submit(function () {
+                       
+            var url = "/search"; // the script where you handle the form input.
+                       
+            $.ajax({
+                type: "POST",
+                url: url,
+                data: $("#search-form").serialize(), // serializes the form's elements.
+                success: function (data) {
+                    alert(data); // show response from the php script.
+                }
+            });
+
+            return false; // avoid to execute the actual submit of the form.
+        });
+    });
+</script>
+<script src="~/Content/script/jquery-jtemplates.js"></script>
+
+<script>
+    <div class="4u">     
+                <section class="box box-feature">
+                    <a href="#" class="image image-full"><img src="/content/images/pic02.jpg" alt="" /></a>
+                    <div class="inner">
+                        <header>
+                            <h2>{$T.Title}</h2>
+                            <span class="byline">Details</span>
+                        </header>
+                        <p>{$T.Description}</p>
+				</div>
+			</section>
+	</div>
+</script>

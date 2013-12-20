@@ -12,7 +12,7 @@ namespace Arisoph.Web.UI.Controllers
     public class SearchController : AnonymousController
     {
 
-        [AcceptVerbs(HttpVerbs.Get | HttpVerbs.Post)]
+        [AcceptVerbs(HttpVerbs.Post)]
         public ActionResult Index(FormCollection form)
         {
             if (Request.HttpMethod == "POST")
@@ -22,10 +22,10 @@ namespace Arisoph.Web.UI.Controllers
                 var products = ProductLoader.Load(query, "Electronics");
                var model = new SearchProduct() { Products = products };
 
-               return View("Index", null, model);
+               return Json(model);
             }
 
-            return View();
+            return Json(null, JsonRequestBehavior.AllowGet);
         }
     }
 }

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arisoph.Service.API", "Arisoph.Service.API\Arisoph.Service.API.csproj", "{76A95FFA-D13E-441F-A0ED-5258388E99DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arisoph.Service.API.Tests", "Arisoph.Service.API.Tests\Arisoph.Service.API.Tests.csproj", "{20318E16-F8F4-4268-A7BC-F5AB1947A9AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76A95FFA-D13E-441F-A0ED-5258388E99DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76A95FFA-D13E-441F-A0ED-5258388E99DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76A95FFA-D13E-441F-A0ED-5258388E99DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76A95FFA-D13E-441F-A0ED-5258388E99DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20318E16-F8F4-4268-A7BC-F5AB1947A9AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20318E16-F8F4-4268-A7BC-F5AB1947A9AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20318E16-F8F4-4268-A7BC-F5AB1947A9AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20318E16-F8F4-4268-A7BC-F5AB1947A9AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
