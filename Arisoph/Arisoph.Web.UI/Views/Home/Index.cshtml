@@ -19,13 +19,14 @@
     jQuery(document).ready(function () {
         $("#search-form").submit(function () {
                        
-            var url = "/search"; // the script where you handle the form input.
+            var url = "/search";
                        
             $.ajax({
                 type: "POST",
                 url: url,
-                data: $("#search-form").serialize(), // serializes the form's elements.
+                data: $("#search-form").serialize(),
                 success: function (data) {
+                    $("#ProductResult").empty();
                     for (var i = 0; i < data.Products.length; i++) {
                         console.log(data.Products[i]);
                         $.tmpl($("#ProductTemplate"), data.Products[i]).appendTo("#ProductResult");
@@ -33,7 +34,7 @@
                 }
             });
 
-            return false; // avoid to execute the actual submit of the form.
+            return false; 
         });
     });
 </script>
@@ -49,16 +50,9 @@
                             <span class="byline">Price: ${CurrencyCode} ${FormattedPrice}</span>
                             <span class="byline">Details</span>
                         </header>
-                        <p class="ellipsis">${Title}</p>
+                        <p >${Description}</p>
 				</div>
 			</section>
 	</div>
 </script>
-<style type="text/css">
-    .ellipsis {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    -o-text-overflow: ellipsis;
-}
-</style>
+

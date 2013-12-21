@@ -5,9 +5,9 @@ using System.Text;
 
 namespace Arisoph.Common
 {
-    public class StringExtention
+    public static class StringExtention
     {
-        static public string Ellipsis(string text, int length)
+        static public string Ellipsis(this String text, int length)
         {
             if (text.Length <= length) return text;
             int pos = text.IndexOf(" ", length);

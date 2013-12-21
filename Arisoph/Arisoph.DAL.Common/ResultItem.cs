@@ -20,5 +20,7 @@ namespace Arisoph.DAL.Common
         public string FormattedPrice { get; set; }
 
         public string CurrencyCode { get; set; }
+
+        public string Description { get; set; }
     }
 }
