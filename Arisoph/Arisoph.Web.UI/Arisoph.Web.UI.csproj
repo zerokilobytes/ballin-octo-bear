@@ -212,6 +212,8 @@
     <Content Include="Content\script\jquery-jtemplates.min.js" />
     <Content Include="Content\script\jquery-jtemplates.js" />
     <Content Include="Content\script\jquery.min.js" />
+    <Content Include="Content\script\jquery.tmpl.js" />
+    <Content Include="Content\script\jquery.tmpl.min.js" />
     <Content Include="Content\script\skel-panels.min.js" />
     <Content Include="Content\script\skel.min.js" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
@@ -277,6 +279,7 @@
     <Content Include="Views\Shared\Partial\_Featured.cshtml" />
     <Content Include="Views\Shared\Partial\_Header.cshtml" />
     <Content Include="Views\Shared\Partial\_Search.cshtml" />
+    <Content Include="Views\Shared\Partial\_Result.cshtml" />
     <None Include="Views\Shared\_Layout.cshtml.bak" />
     <None Include="Web.config.bak" />
     <None Include="Web.config.Debug.bak">

@@ -24,7 +24,6 @@ namespace Arisoph.DAL.Amazon.AWS
             IDictionary<string, string> r1 = new Dictionary<string, String>();
             r1["Service"] = "AWSECommerceService";
             r1["Version"] = "2011-08-01";
-            r1["ResponseGroup"] = "Small";
             r1["AssociateTag"] = "httpzerokilow-20";
             r1["ResponseGroup"] = "ItemAttributes";
             r1["MerchantId"] = "All";

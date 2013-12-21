@@ -26,7 +26,7 @@ namespace Arisoph.DAL.Amazon.AWS
                          where c.Descendants(ns + "ListPrice").Count() > 0
                          select new ResultItem
                          {
-                              Name = c.Element(ns + "ItemAttributes").Element(ns + "Title").Value,
+                              Title = c.Element(ns + "ItemAttributes").Element(ns + "Title").Value,
                               Price = Converter.GetAmazonPrice(c.Element(ns + "ItemAttributes").Element(ns + "ListPrice").Element(ns + "Amount").Value),
                               ID = c.Element(ns + "ASIN").Value,
                               URL = c.Element(ns + "DetailPageURL").Value,

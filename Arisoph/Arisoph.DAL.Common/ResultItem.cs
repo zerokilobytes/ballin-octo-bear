@@ -8,7 +8,7 @@ namespace Arisoph.DAL.Common
 {
     public class ResultItem
     {
-        public string Name { get; set; }
+        public string Title { get; set; }
         public double Price { get; set; }
 
         public string ID { get; set; }
