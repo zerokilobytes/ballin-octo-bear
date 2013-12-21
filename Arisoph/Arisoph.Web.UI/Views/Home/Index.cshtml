@@ -45,12 +45,20 @@
                     <a href="#" class="image image-full"><img src="/content/images/pic02.jpg" alt="" /></a>
                     <div class="inner">
                         <header>
-                            <h4>${Title}</h4>
+                            <h4 class="ellipsis">${Title}</h4>
                             <span class="byline">Price: ${CurrencyCode} ${FormattedPrice}</span>
                             <span class="byline">Details</span>
                         </header>
-                        <p>${Title}</p>
+                        <p class="ellipsis">${Title}</p>
 				</div>
 			</section>
 	</div>
 </script>
+<style type="text/css">
+    .ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+}
+</style>

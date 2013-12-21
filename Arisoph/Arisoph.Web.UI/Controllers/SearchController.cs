@@ -20,9 +20,9 @@ namespace Arisoph.Web.UI.Controllers
                 string query = form["query"].ToString();
 
                 var products = ProductLoader.Load(query, "Electronics");
-               var model = new SearchProduct() { Products = products };
+                var model = new SearchProduct() { Products = products };
 
-               return Json(model);
+                return Json(model);
             }
 
             return Json(null, JsonRequestBehavior.AllowGet);

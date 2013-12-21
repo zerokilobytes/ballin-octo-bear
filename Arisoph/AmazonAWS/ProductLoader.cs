@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
+using Arisoph.Common.Log;
 
 namespace Arisoph.DAL.Amazon.AWS
 {
@@ -21,6 +22,7 @@ namespace Arisoph.DAL.Amazon.AWS
 
             var doc = XDocument.Load(url);
 
+            Log.Debug("\n" + doc.ToString());
 
             var items = (from c in doc.Descendants(ns + "Item")
                          where c.Descendants(ns + "ListPrice").Count() > 0

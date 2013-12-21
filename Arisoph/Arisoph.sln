@@ -33,6 +33,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arisoph.Service.API", "Aris
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arisoph.Service.API.Tests", "Arisoph.Service.API.Tests\Arisoph.Service.API.Tests.csproj", "{20318E16-F8F4-4268-A7BC-F5AB1947A9AE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arisoph", "Arisoph", "{FE844755-2F2A-48E2-989E-DFA8C8B5E460}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arisoph.Common", "Arisoph.Common\Arisoph.Common.csproj", "{986172F7-AB91-4163-A1BC-CD1F0115B5D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,10 @@ Global
 		{20318E16-F8F4-4268-A7BC-F5AB1947A9AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20318E16-F8F4-4268-A7BC-F5AB1947A9AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20318E16-F8F4-4268-A7BC-F5AB1947A9AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{986172F7-AB91-4163-A1BC-CD1F0115B5D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{986172F7-AB91-4163-A1BC-CD1F0115B5D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{986172F7-AB91-4163-A1BC-CD1F0115B5D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{986172F7-AB91-4163-A1BC-CD1F0115B5D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -93,5 +101,6 @@ Global
 		{8521576E-D60B-4541-9E8B-67DD5A270BA9} = {A0AC8636-A671-4521-AA90-D5EAB5C05F04}
 		{20318E16-F8F4-4268-A7BC-F5AB1947A9AE} = {537D694A-6DFC-495F-BCE7-EC6AE09EAC8D}
 		{D70F39F4-CAAD-48C3-88D0-4B696D0514B9} = {D804EA8E-C4C0-4A63-8332-6CBC3D21FDC6}
+		{986172F7-AB91-4163-A1BC-CD1F0115B5D1} = {FE844755-2F2A-48E2-989E-DFA8C8B5E460}
 	EndGlobalSection
 EndGlobal

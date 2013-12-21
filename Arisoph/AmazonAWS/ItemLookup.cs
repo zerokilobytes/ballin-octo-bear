@@ -28,8 +28,12 @@ namespace Arisoph.DAL.Amazon.AWS
             r1["ResponseGroup"] = "ItemAttributes";
             r1["MerchantId"] = "All";
             r1["Operation"] = "ItemSearch";
+            r1["Availability"] = "Available";
+            r1["Condition"] = "All";
             r1["SearchIndex"] = category;
             r1["Keywords"] = keyword;
+            r1["Sort"] = "reviewrank";
+            r1["ItemPage"] = "1";
 
             requestUrl = helper.Sign(r1);
             return requestUrl;
