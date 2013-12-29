@@ -35,7 +35,7 @@ namespace Arisoph.Web.UI
                 "{controller}/{action}/{id}", // URL with parameters
                 new
                 {
-                    controller = "Home",
+                    controller = "Index",
                     action = "Index",
                     id = UrlParameter.Optional
                 });

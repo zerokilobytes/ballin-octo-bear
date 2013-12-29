@@ -20,6 +20,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{537D694A-6DFC-495F-BCE7-EC6AE09EAC8D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{1592923B-8CA1-4278-9770-E032035825C3}"
+	ProjectSection(SolutionItems) = preProject
+		AmazonAWS\ProductLoader.cs = AmazonAWS\ProductLoader.cs
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebServices", "WebServices", "{D804EA8E-C4C0-4A63-8332-6CBC3D21FDC6}"
 EndProject

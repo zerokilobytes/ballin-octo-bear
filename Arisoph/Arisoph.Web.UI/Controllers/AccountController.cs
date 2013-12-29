@@ -67,7 +67,7 @@ namespace Arisoph.Web.UI.Controllers
                     {
                         return Redirect(returnUrl);
                     }
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("Index", "Index");
                 }
                 ModelState.AddModelError("", "The user name or password provided is incorrect.");
             }
@@ -92,7 +92,7 @@ namespace Arisoph.Web.UI.Controllers
         public ActionResult LogOff()
         {
             FormsAuthentication.SignOut();
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Index", "Index");
         }
 
         //
@@ -120,7 +120,7 @@ namespace Arisoph.Web.UI.Controllers
                 if (createStatus == MembershipCreateStatus.Success)
                 {
                     FormsService.SignIn(model.UserName, false /* createPersistentCookie */);
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("Index", "Index");
                 }
                 ModelState.AddModelError("", ErrorCodeToString(createStatus));
             }
@@ -428,7 +428,7 @@ namespace Arisoph.Web.UI.Controllers
             }
             else
             {
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Index", "Index");
             }
         }
 

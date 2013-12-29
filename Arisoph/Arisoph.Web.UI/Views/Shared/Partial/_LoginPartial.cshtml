@@ -1,0 +1,7 @@
+﻿@if (Request.IsAuthenticated) {
+    <text>
+        @Html.ActionLink("Welcome " + User.Identity.Name, "Manage", "Account", routeValues: null, htmlAttributes: new { @class = "username", title = "Manage" })
+    </text>
+} else {
+    @Html.ActionLink("Sign in", "Login", "Account", new object { },new { @class = ""})
+}

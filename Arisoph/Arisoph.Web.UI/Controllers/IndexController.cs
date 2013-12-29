@@ -10,17 +10,17 @@ using Arisoph.Web.Framework.Controllers;
 
 namespace Arisoph.Web.UI.Controllers
 {
-    public class HomeController : AnonymousController
+    public class IndexController : AnonymousController
     {
         private readonly IService message;
 
        
-        public HomeController(IService welcomeMessageService)
+        public IndexController(IService welcomeMessageService)
         {
             this.message = welcomeMessageService;
         }
       
-        public HomeController()
+        public IndexController()
         {
             
         }
