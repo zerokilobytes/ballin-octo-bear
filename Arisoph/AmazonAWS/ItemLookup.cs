@@ -12,7 +12,7 @@ namespace Arisoph.DAL.Amazon.AWS
 {
    public class ItemLookup
     {
-        private const string MY_AWS_ACCESS_KEY_ID = "AKIAIYMSGU5E5OTDRTYA";
+        private const string MY_AWS_ACCESS_KEY_ID = "AKIAIYMSGU[XXXXXXXXX]5E5OTDRTYA";
         private const string MY_AWS_SECRET_KEY = "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";
         private const string DESTINATION          = "ecs.amazonaws.com";
 
